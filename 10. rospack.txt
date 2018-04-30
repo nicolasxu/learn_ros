@@ -1,0 +1,8 @@
+rospack allows you to get information about packages.
+
+
+$ rospack find roscpp
+
+would return:
+/opt/ros/indigo/share/roscpp
+

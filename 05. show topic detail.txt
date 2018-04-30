@@ -1,0 +1,4 @@
+rostopic info /odom 
+
+
+/odom is the name of the topic

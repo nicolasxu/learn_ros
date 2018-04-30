@@ -1,0 +1,21 @@
+workspaces is where you can build multiple, interdependent packages together all at once.
+http://wiki.ros.org/catkin/workspaces
+
+ROS relies on the notion of combining spaces using the shell environment.
+
+catkin is the tool to build workspace for ROS
+
+a space is just a physical folder, the name of which is spcified in environment variable, e.g.:
+install/                -- INSTALL SPACE (set by CMAKE_INSTALL_PREFIX)
+
+
+
+--------- create workspace ------
+
+$ mkdir -p ~/catkin_ws/src
+$ cd ~/catkin_ws/
+$ catkin_make
+
+
+"mkdir -p" will create several level path at one time, or it can only create one level at a time
+

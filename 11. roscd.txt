@@ -1,0 +1,15 @@
+
+It allows you to change directory (cd) directly to a package.
+
+e.g.:
+roscd roscpp
+
+e.g.:
+roscd roscpp/cmake
+roscd can also move to a subdirectory of a package or stack
+
+Note that roscd, like other ROS tools, will only find ROS packages that are within the directories listed in your ROS_PACKAGE_PATH. 
+
+e.g.:
+roscd log
+roscd log will take you to the folder where ROS stores log files.

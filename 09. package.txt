@@ -1,0 +1,4 @@
+Packages: Packages are the software organization unit of ROS code. Each package can contain libraries, executables, scripts, or other artifacts. 
+
+Manifests (package.xml): A manifest is a description of a package. It serves to define dependencies between packages and to capture meta information about the package like version, maintainer, license, etc... 
+
