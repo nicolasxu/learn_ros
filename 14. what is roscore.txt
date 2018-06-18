@@ -1,0 +1,14 @@
+14. what is roscore.txt
+
+roscore is a collection of nodes and programs that are pre-requisites of a ROS-based system. You must have a roscore running in order for ROS nodes to communicate. It is launched using the roscore command.
+
+
+http://wiki.ros.org/roscore
+
+The roscore can be launched using the roscore executable:
+
+roscore
+
+You can also specify a port to run the master on:
+
+roscore -p 1234
